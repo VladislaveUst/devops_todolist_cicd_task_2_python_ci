@@ -37,11 +37,11 @@ jobs:
 
       - name: Run database migrations
         run: |
-          python ыкmanage.py migrate
+          python src/manage.py migrate
 
       - name: Run tests
         run: |
-          python manage.py test
+          python src/manage.py test
 
       - name: Generate coverage
         run: |
