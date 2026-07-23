@@ -37,7 +37,7 @@ jobs:
 
       - name: Run database migrations
         run: |
-          python manage.py migrate
+          python ыкmanage.py migrate
 
       - name: Run tests
         run: |
@@ -45,7 +45,7 @@ jobs:
 
       - name: Generate coverage
         run: |
-          coverage run manage.py test
+          coverage run src/manage.py test
 
       - name: Display coverage report
         run: |
